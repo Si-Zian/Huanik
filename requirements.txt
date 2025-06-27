@@ -1,0 +1,7 @@
+pyrofork
+TgCrypto==1.2.5
+pyromod==1.5
+pymongo
+motor
+dnspython==2.3.0
+aiohttp

@@ -1,0 +1,65 @@
+{
+  "name": "TG File Sharing Bot",
+  "description": "File Sharing bot can generate private links for specific files",
+  "logo": "https://ibb.co/VcSBj94S",
+  "keywords": [
+    "telegram",
+    "file",
+    "shortener"
+  ],
+  "owner": "https://github.com/Sahil0976",
+  "env": {
+    "TG_BOT_TOKEN": {
+      "description": "Your Bot token, Get it from @Botfather",
+      "value": "6700290832:AAHmoKLOK2U4zLrpXPmgBiZSk7WZ5c2-U5o"
+    },
+    "OWNER_ID": {
+      "description": "An integer consisting of your owner ID",
+      "value": "1576425650"
+    },
+    "APP_ID": {
+      "description": "Your app ID, take it from my.telegram.org",
+      "value": "23539392"
+    },
+    "API_HASH": {
+      "description": "Your API hash, take it from my.telegram.org",
+      "value": "5ee767ace3c694a4fb39cdd2cc78eaca"
+    },
+    "DATABASE_URL": {
+      "description": "Paste your MongoDB URL",
+      "value": "mongodb+srv://Yuuichi:Yuuichi@cluster0.plcnxqv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    },
+    "DATABASE_NAME": {
+      "description": "Enter your DATABASE_NAME",
+      "value": "Yuuichi"
+    },
+    "CHANNEL_ID": {
+      "description": "Make a channel (database channel), then make the bot an admin in the channel, and provide its ID",
+      "value": "-1002048004827"
+    },
+    "FORCE_CHANNEL": {
+      "description": "ID of the first channel, if you want to enable force sub feature, else put 0",
+      "value": "-1002459794646"
+    },
+    "FORCE_CHANNEL2": {
+      "description": "ID of the second channel, if you want to enable force sub feature, else put 0",
+      "value": "-1002290873966"
+    },
+    "PROTECT_CONTENT": {
+      "description": "Protect contents from being forwarded (true/false)",
+      "value": false,
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  }
+}
