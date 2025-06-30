@@ -43,16 +43,16 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/5136fba2eedc5e1
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 
-HELP_TXT = "<b><i>About Us..\n\n‣ Made for : Adult Hyper \n‣ Owner : @Its_Welexa\n‣ Worked For : @Cultured_Hyper \n‣ Developer : @Wel4xa\n\n Adios !!</i></b>"
-START_MSG = os.environ.get("START_MESSAGE", "<b>Hi There... {first}! 💥\n\nI am a file store bot.\nI can generate shortener links directly with no problems\nMy Owner: @Its_Welexa</b>")
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}!⚡\n\n🫧Please join both of our channels first then try again...!")
+HELP_TXT = "<b><blockquote>1. First Join the channel\n2. Tap on Original link again or Reload ⚡️\n3. Tap on Start and Done ✅</blockquote></b>"
+START_MSG = os.environ.get("START_MESSAGE", "<b><blockquote>ʜɪ ᴛʜᴇʀᴇ... {mention}</blockquote>! 💥\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....!\n<a href=https://t.me/Cultured_Oasis>ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴏᴛᴛ ᴏʀɪɢɪɴᴀʟꜱ<a></b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<blockquote>›› ʜᴇʏ {mention} ×</blockquote>\n ʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴀᴅʏ ‼️ ʟᴏᴏᴋs ʟɪᴋᴇ ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ sᴜʙsᴄʀɪʙᴇᴅ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʏᴇᴛ, sᴜʙsᴄʀɪʙᴇ ɴᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs")
 
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 
 AUTO_DEL = os.environ.get("AUTO_DEL", "True") #TRUE/FALSE
 DEL_TIMER = int(os.environ.get("DEL_TIMER", "600")) #Seconds
-DEL_MSG = "<b>Files will be deleting in 10 Minutes. Forward in your Saved Messages or somewhere else..!</b>"
+DEL_MSG = "<b><blockquote>Yᴏᴜʀ ғɪʟᴇs ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ᴡɪᴛʜɪɴ 10 Mɪɴᴜᴛᴇs. Sᴏ ᴘʟᴇᴀsᴇ ғᴏʀᴡᴀʀᴅ ᴛʜᴇᴍ ᴛᴏ ᴀɴʏ ᴏᴛʜᴇʀ ᴘʟᴀᴄᴇ ғᴏʀ ғᴜᴛᴜʀᴇ ᴀᴠᴀɪʟᴀʙɪʟɪᴛʏ.</blockquote></b>"
 
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 ##--------------------------------------------------------------------------------------------------------------------------------------------
