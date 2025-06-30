@@ -26,7 +26,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 ]
             )
         )
-if data == "commands":
+elif data == "commands":
         await query.message.edit_text(
             text=CMD_TXT.format(first=query.from_user.first_name),
             disable_web_page_preview=True,
