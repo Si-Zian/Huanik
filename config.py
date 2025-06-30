@@ -20,8 +20,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6648688093"))  # OWNER ID
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Yuuichi:Yuuichi@cluster0.plcnxqv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "Yuuichi")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Albedo:Albedo@cluster0.kpmf9wb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "Albedo")
 
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 ##--------------------------------------------------------------------------------------------------------------------------------------------
