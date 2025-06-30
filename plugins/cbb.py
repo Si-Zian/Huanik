@@ -4,7 +4,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from bot import Bot
-from config import HELP_TXT, START_MSG, CMD_TXT
+from config import HELP_TXT, START_MSG
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 
 #-------------------------------------------------------------------------------------------        
