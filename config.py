@@ -8,14 +8,14 @@ from logging.handlers import RotatingFileHandler
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6700290832:AAHmoKLOK2U4zLrpXPmgBiZSk7WZ5c2-U5o") #Bot Token
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8062951959:AAHTmjQiByoa_GLOBvL_FnJacQUaDnl01ko") #Bot Token
 APP_ID = int(os.environ.get("APP_ID", "23539392")) #API_ID
 API_HASH = os.environ.get("API_HASH", "5ee767ace3c694a4fb39cdd2cc78eaca") #Telegram HASH
 
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "1576425650"))  # OWNER ID
+OWNER_ID = int(os.environ.get("OWNER_ID", "6648688093"))  # OWNER ID
 
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 ##--------------------------------------------------------------------------------------------------------------------------------------------
@@ -26,19 +26,19 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Yuuichi")
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002048004827")) #Logs channel id for files
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002843769030")) #Logs channel id for files
 
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 
 #If you don't want forcesub then leave blank
-FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "-1002459794646")) #Forcesub1
-FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "-1002290873966")) #Forcesub2
+FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "-1002544093138")) #Forcesub1
+FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "-1002807818930")) #Forcesub2
 
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 
-START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/90a5b40870306cc1cabf3-7007ef66625077cc0e.jpg") #Telegraph Image with for start Message
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/5136fba2eedc5e1799d2e-e4b2c3bf0dd1ed47dd.jpg") #Telegraph Image with for Forcesub Message
+START_PIC = os.environ.get("START_PIC", "https://graph.org/file/c2b0ebd49a3bb6b3494ce-092e515c702a1285aa.jpg") #Telegraph Image with for start Message
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/7b2c3cef76da1e9e77ae7-87eafb4a911f8beb08.jpg") #Telegraph Image with for Forcesub Message
 
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 ##--------------------------------------------------------------------------------------------------------------------------------------------
@@ -73,7 +73,7 @@ DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True
 
 #Don't change anything
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
-PORT = os.environ.get("PORT", "7011")
+PORT = os.environ.get("PORT", "8010")
 
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 ##--------------------------------------------------------------------------------------------------------------------------------------------
