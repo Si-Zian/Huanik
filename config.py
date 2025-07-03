@@ -15,7 +15,7 @@ API_HASH = os.environ.get("API_HASH", "5ee767ace3c694a4fb39cdd2cc78eaca") #Teleg
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "6648688093"))  # OWNER ID
+OWNER_ID = int(os.environ.get("OWNER_ID", "7582815581"))  # OWNER ID
 
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 ##--------------------------------------------------------------------------------------------------------------------------------------------
@@ -31,21 +31,21 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002843769030")) #Logs channel i
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 
 #If you don't want forcesub then leave blank
-FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "-1002544093138")) #Forcesub1
-FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "-1002807818930")) #Forcesub2
+FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "-1002120887442")) #Forcesub1
+FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "-1002543520942")) #Forcesub2
 
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 
-START_PIC = os.environ.get("START_PIC", "https://graph.org/file/c2b0ebd49a3bb6b3494ce-092e515c702a1285aa.jpg") #Telegraph Image with for start Message
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/7b2c3cef76da1e9e77ae7-87eafb4a911f8beb08.jpg") #Telegraph Image with for Forcesub Message
+START_PIC = os.environ.get("START_PIC", "https://graph.org/file/4a7dd33fde2ceba1eb8c3-da269ad2223d71a0fd.jpg") #Telegraph Image with for start Message
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/4a7dd33fde2ceba1eb8c3-da269ad2223d71a0fd.jpg") #Telegraph Image with for Forcesub Message
 
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 
 HELP_TXT = "<b><blockquote>1. First Join the channel\n2. Tap on Original link again or Reload ⚡️\n3. Tap on Start and Done ✅</blockquote></b>"
-START_MSG = os.environ.get("START_MESSAGE", "<b><blockquote>ʜɪ ᴛʜᴇʀᴇ... {mention}</blockquote>! 💥\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....!\n<a href=https://t.me/Cultured_Oasis>ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴏᴛᴛ ᴏʀɪɢɪɴᴀʟꜱ<a></b>")
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<blockquote>›› ʜᴇʏ {mention} ×</blockquote>\n ʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴀᴅʏ ‼️ ʟᴏᴏᴋs ʟɪᴋᴇ ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ sᴜʙsᴄʀɪʙᴇᴅ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʏᴇᴛ, sᴜʙsᴄʀɪʙᴇ ɴᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs")
+START_MSG = os.environ.get("START_MESSAGE", "<b><blockquote>ʜɪ ᴛʜᴇʀᴇ... {mention}</blockquote>! 💥\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....!\nᴘᴏᴡᴇʀᴇᴅ ʙʏ <a href=https://t.me/Anime_Mayhem>ᴀɴɪᴍᴇ ᴍᴀʏʜᴇᴍ</a></b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<blockquote>›› ʜᴇʏ {mention} ×</blockquote>\nʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴀᴅʏ ‼️ ʟᴏᴏᴋs ʟɪᴋᴇ ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ sᴜʙsᴄʀɪʙᴇᴅ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʏᴇᴛ, sᴜʙsᴄʀɪʙᴇ ɴᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs")
 CMD_TXT = "<b><blockquote>× ᴄᴏᴍᴍᴀɴᴅꜱ ꜰᴏʀ ᴀᴅᴍɪɴꜱ ×</blockquote>\n\n/start - Start the bot or get posts\n/batch - Create links for multiple posts\n/nbatch - Advanced batch processing\n/genlink - Create link for one post\n/users - View bot statistics\n/broadcast - Broadcast messages to users\n/stats - Check bot uptime\n/add_admin - Add admins\n/del_admin - Remove admins\n/admins - View admin list\n/forcesub1 - Change ForceSub Channel 1\n/forcesub2 - Change ForceSub Channel 2\n/viewforce - View ForceSub channels</b>"
 ##--------------------------------------------------------------------------------------------------------------------------------------------
 ##--------------------------------------------------------------------------------------------------------------------------------------------
